@@ -1,0 +1,48 @@
+html{background-color:  #16516165;
+font-family: quick;
+color:black;
+font-size: 20px; }
+table{
+	border-collapse: collapse;/*Fusionne les bordures des tableaux adjacentes*/
+	background-color: white;
+	width: 75%;
+	margin: auto;
+}
+td{text-align: center;}
+span{color: green;}
+th,td,tr{
+	padding: 20px;/*Esapace de 15 pixels avec les bordures aussi possible avec la droite le haut etc...*/
+	color: black;
+	/*border: 1px solid black; /*Affiche les bordures*/
+	text-align: center;/*Centre le text par apport aux cases*/
+	vertical-align: center;
+	font-family:"quick";/*police appliqué dans les th,td,tr*/
+	border-top-color: black ;
+	border-bottom-color: green;
+	border-right-color: purple;
+	border-left-color:purple;	
+	border-style:dotted;/*Style de bordure ne marche pas si on a déjà un border comme au-dessus*/
+	/*  côtés horizontaux | côtés verticaux */
+	/*border-style: dotted solid;
+	       /* haut | côtés verticaux | bas */
+	/*border-style: dashed double dashed;
+	          /* haut | droite | bas | gauche */
+	/*border-style: none solid dotted dashed; */
+}
+
+tbody tr:hover {background-color: #D8D8D8;}/*Met un aura sur la selection au passage de la souris*/
+td:hover{background-color: #D8D8AE;}
+th{background-color:#BDBDBD; }
+p{text-align: center;
+	margin-left: 170px;
+	margin-right:170px;
+}
+ul{text-align: center;}/*Tentative de centrer la liste*/
+li{text-align: center;}
+
+caption{text-decoration: underline;}
+
+@font-face{font-family:"quick";
+src:url(../CSS/POLICE/Quicksand-Bold.otf);
+);
+}
